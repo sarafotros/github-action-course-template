@@ -29,7 +29,7 @@ export default class Game {
       win = win || (row[0] === row[1] && row[0] === row[2])
     }
 
-    return win
+    return win 
   }
 
   colWin () {
